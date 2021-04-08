@@ -1,0 +1,18 @@
+.singleItemDivwrapper {
+  width: 420px;
+  height: 160px;
+  border-radius: 3px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  line-height: normal;
+  cursor: pointer;
+  color: aqua;
+}
+.details {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  font-size: 80px;
+  pointer-events: none;
+} 

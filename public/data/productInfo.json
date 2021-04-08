@@ -1,0 +1,228 @@
+[
+  {
+    "name": "AiSort数据安全分级与风险评估系统",
+    "icon": "sort",
+    "keywords": [
+      "数据发现与分级分类",
+      "基线核查与风险评估",
+      "数据资产价值评估",
+      "数据安全态势感知"
+    ],
+    "desc": "",
+    "state": "已发布"
+  },
+  {
+    "name": "AiMask数据脱敏系统",
+    "icon": "mask",
+    "keywords": [
+      "静态脱敏与水印溯源"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "定制化配置的静态脱敏方案",
+    "icon": "mask",
+    "keywords": [],
+    "desc": "",
+    "state": "待发布",
+    "children": [
+      {
+        "name": "AiSort"
+      },
+      {
+        "name": "AiMask"
+      }
+    ]
+  },
+  {
+    "name": "AiGate数据安全网关系统",
+    "icon": "gate",
+    "keywords": [
+      "动态脱敏与水印溯源",
+      "访问控制",
+      "漏洞防护",
+      "运维管控"
+    ],
+    "desc": "",
+    "state": "已发布"
+  },
+  {
+    "name": "贯通分类分级功能的动态脱敏方案",
+    "icon": "sort",
+    "keywords": [],
+    "desc": "",
+    "state": "待发布",
+    "children": [
+      {
+        "name": "AiSort"
+      },
+      {
+        "name": "AiGate"
+      }
+    ]
+  },
+  {
+    "name": "政务数据目录自动分级系统",
+    "icon": "sort",
+    "keywords": [],
+    "desc": "",
+    "state": "待发布",
+    "children": [
+      {
+        "name": "AiSort"
+      },
+      {
+        "name": "编目系统"
+      }
+    ]
+  },
+  {
+    "name": "AiThink用户与实体行为分析系统",
+    "icon": "user",
+    "keywords": [
+      "UEBA用户与实体行为分析"
+    ],
+    "desc": "",
+    "state": "已发布"
+  },
+  {
+    "name": "AiThink数据库访问安全解决方案",
+    "icon": "db-security",
+    "keywords": [],
+    "desc": "",
+    "state": "已发布",
+    "children": [
+      {
+        "name": "DB审计"
+      },
+      {
+        "name": "AiThink"
+      }
+    ]
+  },
+  {
+    "name": "敏感数据流动态势感知解决方案",
+    "icon": "data-flow",
+    "keywords": [
+      "还原操作细节",
+      "抓黑客",
+      "防内鬼"
+    ],
+    "desc": "",
+    "state": "待发布",
+    "children": [
+      {
+        "name": "AiSort"
+      },
+      {
+        "name": "DB审计"
+      },
+      {
+        "name": "AiThink"
+      }
+    ]
+  },
+  {
+    "name": "AiDLP数据防泄漏系统（终端）",
+    "icon": "dlp",
+    "keywords": [
+      "终端DLP"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "AiDLP数据防泄漏系统（网络）",
+    "icon": "network-dlp",
+    "keywords": [
+      "网络DLP"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "AiThink主机安全解决方案",
+    "icon": "host",
+    "keywords": [],
+    "desc": "",
+    "children": [
+      {
+        "name": "终端DLP"
+      },
+      {
+        "name": "AiThink"
+      }
+    ],
+    "state": "待发布"
+  },
+  {
+    "name": "AiTrust零信任",
+    "icon": "user",
+    "keywords": [
+      "业务访问策略"
+    ],
+    "desc": "",
+    "state": "已发布"
+  },
+  {
+    "name": "AiTTE透明传输加密系统",
+    "icon": "tte",
+    "keywords": [
+      "Web/H5透明传输加密"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "AiTDE透明数据库加密系统",
+    "icon": "encrypt",
+    "keywords": [
+      "数据库透明加密"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "AiKMS密钥管理系统",
+    "icon": "keys",
+    "keywords": [
+      "密钥管理"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "政务大数据局数据安全管控平台",
+    "icon": "gate",
+    "keywords": [],
+    "desc": "",
+    "state": "待发布",
+    "children": [
+      {
+        "name": "数据安全产品"
+      },
+      {
+        "name": "数据安全管控平台"
+      }
+    ]
+  },
+  {
+    "name": "明御数据脱敏系统",
+    "icon": "mask",
+    "keywords": [
+      "静态脱敏"
+    ],
+    "desc": "",
+    "state": "待发布"
+  },
+  {
+    "name": "明御数据库审计与风险控制系统",
+    "icon": "encrypt",
+    "keywords": [
+      "数据库审计"
+    ],
+    "desc": "",
+    "state": "已发布"
+  }
+]
